@@ -14,6 +14,13 @@
         "description": "Show Loop and Shuffle controls",
         "dependency": "playerControl"
     },
+    "showNoteIfPlaying": {
+        "type": "switch",
+        "default": true,
+        "description": "Show note icon for supported players",
+        "tooltip": "Show a note icon instead of the current volume level if playback is detected."
+        "dependency": "playerControl"
+    },
     "keyOpen": {
         "type": "keybinding",
         "description": "Show menu",
